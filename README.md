@@ -67,7 +67,10 @@ Notes
 The English guidelines for the annotation scheme are available at `guidelines/Hebrew_Coreference_Guidelines_English.pdf`.
 
 ### Citation
-If you use this repository, please cite it and acknowledge the Hebrew coreference annotation effort.
+
+If you use this repository, please cite the following paper:
+
+```bibtex
 @inproceedings{greenfeld-tsarfaty-2026-beyond,
     title = "Beyond Word Boundaries: A {H}ebrew Coreference Benchmark and an Evaluation Protocol for Morphologically Complex Text",
     author = "Greenfeld, Refael Shaked  and
@@ -87,6 +90,7 @@ If you use this repository, please cite it and acknowledge the Hebrew coreferenc
     ISBN = "979-8-89176-390-6",
     abstract = "Coreference Resolution (CR) is a fundamental NLP task critical for long-form tasks as information extraction, summarization, and many business applications. However, CR methods originally designed for English struggle with Morphologically Rich Languages (MRLs), where mention boundaries do not necessarily align with word boundaries, and a single token may consist of multiple anaphors. CR modeling and evaluation protocols standardly assume that, as in English, words and mentions mostly align. However, this assumption breaks down in MRLs, particularly in the context of LLMs' raw-text processing and end-to-end tasks. To assess and address this challenge, we introduce KibutzR, the first comprehensive CR dataset for Modern Hebrew, an MRL rich with complex words and pronominal clitics. We deliver an annotated dataset that identifies mentions at word, sub-word and multi-word levels, and propose an evaluation protocol that directly addresses word/morpheme boundary discrepancies. Our experiments show that contemporary LLMs perform significantly worse on Hebrew than on English, and that performance degrades on raw unsegmented text. Crucially, we show an inverse performance-trend in Hebrew relative to English, where smaller encoders perform far better than contemporary decoder models, leaving ample space for investigation and improvement. We deliver a new benchmark for Hebrew coreference resolution and a segmentation-aware evaluation protocol to inform future work on other MRLs."
 }
+```
 
 
 ### Contact
